@@ -1,0 +1,24 @@
+CC=gcc
+
+CFLAGS=-O2 -lpthread
+CFLAGS=-O0 -lpthread -g # para debug
+
+
+hash_s: hash_s.o main.o
+	gcc -o main hash_s.o main.o
+
+hash_s.o: hash_s.c
+	gcc -o hash_s.o -c hash_s.c
+
+#modificar o Makefile a partir desta linha
+
+main.o: main.c hash.h
+	gcc -o main.o -c main.c
+
+all: main
+
+clean:
+	rm -rf *.o
+
+mrproper: clean
+	rm -rf main
