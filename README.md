@@ -23,13 +23,6 @@ O trabalho deve ser compilável e executável em plataforma GNU/Linux.
   * Tempo de execução
   * Speedup
 
-## Cronograma
-
-* 05 e 06/04/2016 - aulas reservadas para o trabalho
-* 11/04/2016 - versão sequencial (2,0 pontos)
-* 02/05/2016 - entrega da versão final (6,0 pontos) com relatório (2,0 pontos)
-* 03/05/2016 - correção dos trabalhos
-
 ## Referências
 
 * [POSIX Threads Programming] https://computing.llnl.gov/tutorials/pthreads/
